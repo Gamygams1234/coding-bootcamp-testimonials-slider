@@ -167,7 +167,7 @@ body {
             grid-row: 1/2;
             margin-top: 50x;
             padding-top: 2.5em;
-            padding-left: 1.25em;
+            padding-left: 0.25em;
             padding-right: 1.25em;
             background-size: 100%;
             .buttons {
@@ -193,6 +193,15 @@ body {
                     z-index: 2;
                     width: 110%;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1037px) {
+    .content {
+        .description-container {
+            .my-description {
                 .name-title {
                     flex-direction: row;
                     h4 {
