@@ -126,10 +126,6 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  body {
-    font-size: 32px;
-  }
-
   .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -179,6 +175,10 @@ body {
   }
 }
 @media screen and (min-width: 1037px) {
+  body {
+    font-size: 32px;
+  }
+
   .content .description-container .my-description .name-title {
     flex-direction: row;
   }
